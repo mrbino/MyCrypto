@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1sp-kU-vdu">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="9K4-RT-bk6">
+            <objects>
+                <navigationController id="yx2-IP-LBM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="HOME" image="house.fill" catalog="system" id="cxg-22-O6W"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y20-sS-Zix">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kbH-nY-YLB" kind="relationship" relationship="rootViewController" id="q0k-N9-ND3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sr4-hD-Pnz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-574" y="565"/>
+        </scene>
+        <!--Twitter Feed-->
+        <scene sceneID="WH5-Fm-ueN">
+            <objects>
+                <navigationController id="I8Y-gd-bst" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Twitter Feed" image="newspaper.fill" catalog="system" id="hO8-4N-93P"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KDD-8J-Nhf">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zTJ-ed-QOy" kind="relationship" relationship="rootViewController" id="Qu9-Lw-rhh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bD8-2H-YNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="199" y="570"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Lx7-tW-qqd">
+            <objects>
+                <viewController id="kbH-nY-YLB" customClass="HomeViewController" customModule="MyCrypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MLw-aN-ZqC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mti-0w-tZg" customClass="WelcomeScreen" customModule="MyCrypto" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kxH-3O-w1B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mti-0w-tZg" firstAttribute="leading" secondItem="kxH-3O-w1B" secondAttribute="leading" id="7n2-ah-lpp"/>
+                            <constraint firstItem="kxH-3O-w1B" firstAttribute="trailing" secondItem="mti-0w-tZg" secondAttribute="trailing" id="8dM-0i-Sen"/>
+                            <constraint firstItem="mti-0w-tZg" firstAttribute="top" secondItem="MLw-aN-ZqC" secondAttribute="top" id="Qs1-3O-R9h"/>
+                            <constraint firstItem="kxH-3O-w1B" firstAttribute="bottom" secondItem="mti-0w-tZg" secondAttribute="bottom" id="iC6-Ct-SRS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Isz-NI-qYg"/>
+                    <connections>
+                        <outlet property="welcomeScreenView" destination="mti-0w-tZg" id="TYM-QB-bxz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtF-1v-ZHV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-575" y="1315"/>
+        </scene>
+        <!--Crypto List View Controller-->
+        <scene sceneID="0WY-Zs-7np">
+            <objects>
+                <viewController storyboardIdentifier="CryptoListViewController" id="C24-6O-P49" customClass="CryptoListViewController" customModule="MyCrypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fV-2I-Iq7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8qd-lx-deu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oLR-yy-rDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1263" y="1317"/>
+        </scene>
+        <!--Twitter Feed View Controller-->
+        <scene sceneID="gVI-Br-Ug7">
+            <objects>
+                <viewController id="zTJ-ed-QOy" customClass="TwitterFeedViewController" customModule="MyCrypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JNZ-x6-JdF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Epn-C1-s0I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9RT-6X-yVY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Us9-ig-3Kn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="199" y="1321"/>
+        </scene>
+        <!--Tweet Detail View Controller-->
+        <scene sceneID="ZNR-Zr-sUt">
+            <objects>
+                <viewController storyboardIdentifier="TweetDetailViewController" id="gDm-GU-HHt" customClass="TweetDetailViewController" customModule="MyCrypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hfL-p3-e4q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzS-le-t5V" customClass="TweetDetailScreenView" customModule="MyCrypto" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kn4-ty-7za"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tzS-le-t5V" firstAttribute="top" secondItem="kn4-ty-7za" secondAttribute="top" id="CeH-5S-maw"/>
+                            <constraint firstItem="tzS-le-t5V" firstAttribute="leading" secondItem="kn4-ty-7za" secondAttribute="leading" id="J5g-vy-qn7"/>
+                            <constraint firstItem="kn4-ty-7za" firstAttribute="trailing" secondItem="tzS-le-t5V" secondAttribute="trailing" id="JMh-lA-F1F"/>
+                            <constraint firstItem="kn4-ty-7za" firstAttribute="bottom" secondItem="tzS-le-t5V" secondAttribute="bottom" id="cAc-M5-Ttx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tweetDetailView" destination="tzS-le-t5V" id="VLf-cA-rQF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9n-kg-HrA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="1319"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ZC5-I0-gV1">
+            <objects>
+                <tabBarController id="1sp-kU-vdu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zrX-Wv-BCa"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8li-FF-gPp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yx2-IP-LBM" kind="relationship" relationship="viewControllers" id="VIM-Co-nxg"/>
+                        <segue destination="I8Y-gd-bst" kind="relationship" relationship="viewControllers" id="xIx-6O-qw2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pGk-1b-Daq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-238" y="-180"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="newspaper.fill" catalog="system" width="128" height="111"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

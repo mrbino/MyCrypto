@@ -1,0 +1,24 @@
+PODS:
+  - OMGHTTPURLRQ/UserAgent (3.2.4)
+  - TDOAuth (1.5.0):
+    - TDOAuth/ObjC (= 1.5.0)
+  - TDOAuth/ObjC (1.5.0):
+    - TDOAuth/Swift
+  - TDOAuth/Swift (1.5.0):
+    - OMGHTTPURLRQ/UserAgent
+
+DEPENDENCIES:
+  - TDOAuth
+
+SPEC REPOS:
+  trunk:
+    - OMGHTTPURLRQ
+    - TDOAuth
+
+SPEC CHECKSUMS:
+  OMGHTTPURLRQ: 9ac96bdf5c90a33f75836630729ea1adc312a9ed
+  TDOAuth: 73b43c8ab38adef735816504b3d51dd0f9d577a8
+
+PODFILE CHECKSUM: a6117a75e3e1e605d6dc4356ae5af2cac5c13657
+
+COCOAPODS: 1.11.3

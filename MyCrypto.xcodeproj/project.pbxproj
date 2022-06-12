@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62EABF7F0475E1C4C8F624E3 /* Pods_MyCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D5A45F48E58542CD8C26C3 /* Pods_MyCrypto.framework */; };
+		ADD674AD284FE2E300B27845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674AC284FE2E300B27845 /* AppDelegate.swift */; };
+		ADD674AF284FE2E300B27845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674AE284FE2E300B27845 /* SceneDelegate.swift */; };
+		ADD674B1284FE2E300B27845 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674B0284FE2E300B27845 /* HomeViewController.swift */; };
+		ADD674B4284FE2E300B27845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD674B2284FE2E300B27845 /* Main.storyboard */; };
+		ADD674B6284FE2E500B27845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD674B5284FE2E500B27845 /* Assets.xcassets */; };
+		ADD674B9284FE2E500B27845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD674B7284FE2E500B27845 /* LaunchScreen.storyboard */; };
+		ADD674C4284FFD0000B27845 /* WelcomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD674C3284FFD0000B27845 /* WelcomeScreen.xib */; };
+		ADD674C6284FFD1D00B27845 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674C5284FFD1D00B27845 /* WelcomeScreen.swift */; };
+		ADD674C9284FFDDD00B27845 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674C8284FFDDD00B27845 /* UIView+Extension.swift */; };
+		ADD674CB285003EC00B27845 /* TwitterFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674CA285003EC00B27845 /* TwitterFeedViewController.swift */; };
+		ADD674D12850050C00B27845 /* UserdefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674D02850050C00B27845 /* UserdefaultsUtils.swift */; };
+		ADD674D328500B5900B27845 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674D228500B5900B27845 /* UIStoryboard+Extension.swift */; };
+		ADD674D628501F4600B27845 /* CryptoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674D528501F4600B27845 /* CryptoListViewController.swift */; };
+		ADD674D828501FC800B27845 /* CryptoListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674D728501FC800B27845 /* CryptoListScreenView.swift */; };
+		ADD674DA28501FDD00B27845 /* CryptoListScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD674D928501FDD00B27845 /* CryptoListScreenView.xib */; };
+		ADD674DC285027BD00B27845 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674DB285027BD00B27845 /* CryptoModel.swift */; };
+		ADD674E22850292500B27845 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD674E02850292500B27845 /* CryptoTableViewCell.swift */; };
+		ADD674E32850292500B27845 /* CryptoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD674E12850292500B27845 /* CryptoTableViewCell.xib */; };
+		ADF61A5328522D1D00C7C613 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A5228522D1D00C7C613 /* APIClient.swift */; };
+		ADF61A5528523C9D00C7C613 /* JSON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A5428523C9D00C7C613 /* JSON+Extension.swift */; };
+		ADF61A5F2853F01300C7C613 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A5D2853F01300C7C613 /* TweetTableViewCell.swift */; };
+		ADF61A602853F01300C7C613 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF61A5E2853F01300C7C613 /* TweetTableViewCell.xib */; };
+		ADF61A622853F07000C7C613 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A612853F07000C7C613 /* TweetModel.swift */; };
+		ADF61A642853F40500C7C613 /* TweetListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A632853F40500C7C613 /* TweetListScreenView.swift */; };
+		ADF61A662853F41700C7C613 /* TweetListScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF61A652853F41700C7C613 /* TweetListScreenView.xib */; };
+		ADF61A682854A1DC00C7C613 /* TwitterUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A672854A1DC00C7C613 /* TwitterUserModel.swift */; };
+		ADF61A6A2854A59A00C7C613 /* TweetDetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A692854A59A00C7C613 /* TweetDetailScreenView.swift */; };
+		ADF61A6C2854A5AB00C7C613 /* TweetDetailScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF61A6B2854A5AB00C7C613 /* TweetDetailScreenView.xib */; };
+		ADF61A6E2854AE0A00C7C613 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF61A6D2854AE0A00C7C613 /* TweetDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E82FA43AE071316F358B8CF /* Pods-MyCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCrypto.release.xcconfig"; path = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto.release.xcconfig"; sourceTree = "<group>"; };
+		61D5A45F48E58542CD8C26C3 /* Pods_MyCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59E7D04A44FE77566C0BC91 /* Pods-MyCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCrypto.debug.xcconfig"; path = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD674A9284FE2E300B27845 /* MyCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD674AC284FE2E300B27845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADD674AE284FE2E300B27845 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADD674B0284FE2E300B27845 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADD674B3284FE2E300B27845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD674B5284FE2E500B27845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD674B8284FE2E500B27845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD674BA284FE2E500B27845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD674C3284FFD0000B27845 /* WelcomeScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeScreen.xib; sourceTree = "<group>"; };
+		ADD674C5284FFD1D00B27845 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		ADD674C8284FFDDD00B27845 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ADD674CA285003EC00B27845 /* TwitterFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterFeedViewController.swift; sourceTree = "<group>"; };
+		ADD674D02850050C00B27845 /* UserdefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserdefaultsUtils.swift; sourceTree = "<group>"; };
+		ADD674D228500B5900B27845 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		ADD674D528501F4600B27845 /* CryptoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewController.swift; sourceTree = "<group>"; };
+		ADD674D728501FC800B27845 /* CryptoListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListScreenView.swift; sourceTree = "<group>"; };
+		ADD674D928501FDD00B27845 /* CryptoListScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoListScreenView.xib; sourceTree = "<group>"; };
+		ADD674DB285027BD00B27845 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		ADD674E02850292500B27845 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		ADD674E12850292500B27845 /* CryptoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CryptoTableViewCell.xib; sourceTree = "<group>"; };
+		ADF61A5228522D1D00C7C613 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ADF61A5428523C9D00C7C613 /* JSON+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Extension.swift"; sourceTree = "<group>"; };
+		ADF61A5D2853F01300C7C613 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		ADF61A5E2853F01300C7C613 /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		ADF61A612853F07000C7C613 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		ADF61A632853F40500C7C613 /* TweetListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListScreenView.swift; sourceTree = "<group>"; };
+		ADF61A652853F41700C7C613 /* TweetListScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetListScreenView.xib; sourceTree = "<group>"; };
+		ADF61A672854A1DC00C7C613 /* TwitterUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUserModel.swift; sourceTree = "<group>"; };
+		ADF61A692854A59A00C7C613 /* TweetDetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailScreenView.swift; sourceTree = "<group>"; };
+		ADF61A6B2854A5AB00C7C613 /* TweetDetailScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetDetailScreenView.xib; sourceTree = "<group>"; };
+		ADF61A6D2854AE0A00C7C613 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD674A6284FE2E300B27845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EABF7F0475E1C4C8F624E3 /* Pods_MyCrypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD674A0284FE2E300B27845 = {
+			isa = PBXGroup;
+			children = (
+				ADD674AB284FE2E300B27845 /* MyCrypto */,
+				ADD674AA284FE2E300B27845 /* Products */,
+				E88BB833B2715B6406FA6DD3 /* Pods */,
+				FB0CD797A1CFE03B42614E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD674AA284FE2E300B27845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674A9284FE2E300B27845 /* MyCrypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD674AB284FE2E300B27845 /* MyCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674CF285004F400B27845 /* Utils */,
+				ADD674C7284FFDB000B27845 /* Extensions */,
+				ADD674C2284FF01400B27845 /* ViewController */,
+				ADD674C1284FF00C00B27845 /* Model */,
+				ADD674C0284FF00400B27845 /* View */,
+				ADD674AC284FE2E300B27845 /* AppDelegate.swift */,
+				ADD674AE284FE2E300B27845 /* SceneDelegate.swift */,
+				ADD674B2284FE2E300B27845 /* Main.storyboard */,
+				ADD674B5284FE2E500B27845 /* Assets.xcassets */,
+				ADD674B7284FE2E500B27845 /* LaunchScreen.storyboard */,
+				ADD674BA284FE2E500B27845 /* Info.plist */,
+			);
+			path = MyCrypto;
+			sourceTree = "<group>";
+		};
+		ADD674C0284FF00400B27845 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674C3284FFD0000B27845 /* WelcomeScreen.xib */,
+				ADD674C5284FFD1D00B27845 /* WelcomeScreen.swift */,
+				ADD674D928501FDD00B27845 /* CryptoListScreenView.xib */,
+				ADD674D728501FC800B27845 /* CryptoListScreenView.swift */,
+				ADD674DD285028BD00B27845 /* CryptoTableViewCell */,
+				ADF61A652853F41700C7C613 /* TweetListScreenView.xib */,
+				ADF61A632853F40500C7C613 /* TweetListScreenView.swift */,
+				ADF61A5C2853EFCD00C7C613 /* TweetTableViewCell */,
+				ADF61A6B2854A5AB00C7C613 /* TweetDetailScreenView.xib */,
+				ADF61A692854A59A00C7C613 /* TweetDetailScreenView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADD674C1284FF00C00B27845 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674DB285027BD00B27845 /* CryptoModel.swift */,
+				ADF61A612853F07000C7C613 /* TweetModel.swift */,
+				ADF61A672854A1DC00C7C613 /* TwitterUserModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ADD674C2284FF01400B27845 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674D428501F0D00B27845 /* Modal */,
+				ADD674B0284FE2E300B27845 /* HomeViewController.swift */,
+				ADD674CA285003EC00B27845 /* TwitterFeedViewController.swift */,
+				ADF61A6D2854AE0A00C7C613 /* TweetDetailViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		ADD674C7284FFDB000B27845 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674C8284FFDDD00B27845 /* UIView+Extension.swift */,
+				ADD674D228500B5900B27845 /* UIStoryboard+Extension.swift */,
+				ADF61A5428523C9D00C7C613 /* JSON+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		ADD674CF285004F400B27845 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674D02850050C00B27845 /* UserdefaultsUtils.swift */,
+				ADF61A5228522D1D00C7C613 /* APIClient.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		ADD674D428501F0D00B27845 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674D528501F4600B27845 /* CryptoListViewController.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		ADD674DD285028BD00B27845 /* CryptoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674E12850292500B27845 /* CryptoTableViewCell.xib */,
+				ADD674E02850292500B27845 /* CryptoTableViewCell.swift */,
+			);
+			name = CryptoTableViewCell;
+			sourceTree = "<group>";
+		};
+		ADF61A5C2853EFCD00C7C613 /* TweetTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADF61A5E2853F01300C7C613 /* TweetTableViewCell.xib */,
+				ADF61A5D2853F01300C7C613 /* TweetTableViewCell.swift */,
+			);
+			name = TweetTableViewCell;
+			sourceTree = "<group>";
+		};
+		E88BB833B2715B6406FA6DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59E7D04A44FE77566C0BC91 /* Pods-MyCrypto.debug.xcconfig */,
+				4E82FA43AE071316F358B8CF /* Pods-MyCrypto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB0CD797A1CFE03B42614E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D5A45F48E58542CD8C26C3 /* Pods_MyCrypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD674A8284FE2E300B27845 /* MyCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD674BD284FE2E500B27845 /* Build configuration list for PBXNativeTarget "MyCrypto" */;
+			buildPhases = (
+				352BC65E3597F67F86100CD3 /* [CP] Check Pods Manifest.lock */,
+				ADD674A5284FE2E300B27845 /* Sources */,
+				ADD674A6284FE2E300B27845 /* Frameworks */,
+				ADD674A7284FE2E300B27845 /* Resources */,
+				72465FFD6B2603B88600868F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCrypto;
+			productName = MyCrypto;
+			productReference = ADD674A9284FE2E300B27845 /* MyCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD674A1284FE2E300B27845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ADD674A8284FE2E300B27845 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ADD674A4284FE2E300B27845 /* Build configuration list for PBXProject "MyCrypto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD674A0284FE2E300B27845;
+			productRefGroup = ADD674AA284FE2E300B27845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD674A8284FE2E300B27845 /* MyCrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD674A7284FE2E300B27845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF61A662853F41700C7C613 /* TweetListScreenView.xib in Resources */,
+				ADD674B9284FE2E500B27845 /* LaunchScreen.storyboard in Resources */,
+				ADD674DA28501FDD00B27845 /* CryptoListScreenView.xib in Resources */,
+				ADF61A602853F01300C7C613 /* TweetTableViewCell.xib in Resources */,
+				ADD674B6284FE2E500B27845 /* Assets.xcassets in Resources */,
+				ADD674C4284FFD0000B27845 /* WelcomeScreen.xib in Resources */,
+				ADD674E32850292500B27845 /* CryptoTableViewCell.xib in Resources */,
+				ADF61A6C2854A5AB00C7C613 /* TweetDetailScreenView.xib in Resources */,
+				ADD674B4284FE2E300B27845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		352BC65E3597F67F86100CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCrypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72465FFD6B2603B88600868F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCrypto/Pods-MyCrypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCrypto/Pods-MyCrypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCrypto/Pods-MyCrypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD674A5284FE2E300B27845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD674B1284FE2E300B27845 /* HomeViewController.swift in Sources */,
+				ADF61A5328522D1D00C7C613 /* APIClient.swift in Sources */,
+				ADD674AD284FE2E300B27845 /* AppDelegate.swift in Sources */,
+				ADD674D12850050C00B27845 /* UserdefaultsUtils.swift in Sources */,
+				ADD674C6284FFD1D00B27845 /* WelcomeScreen.swift in Sources */,
+				ADF61A6E2854AE0A00C7C613 /* TweetDetailViewController.swift in Sources */,
+				ADD674D628501F4600B27845 /* CryptoListViewController.swift in Sources */,
+				ADD674C9284FFDDD00B27845 /* UIView+Extension.swift in Sources */,
+				ADD674DC285027BD00B27845 /* CryptoModel.swift in Sources */,
+				ADD674D828501FC800B27845 /* CryptoListScreenView.swift in Sources */,
+				ADF61A6A2854A59A00C7C613 /* TweetDetailScreenView.swift in Sources */,
+				ADF61A622853F07000C7C613 /* TweetModel.swift in Sources */,
+				ADF61A5528523C9D00C7C613 /* JSON+Extension.swift in Sources */,
+				ADD674E22850292500B27845 /* CryptoTableViewCell.swift in Sources */,
+				ADD674AF284FE2E300B27845 /* SceneDelegate.swift in Sources */,
+				ADD674CB285003EC00B27845 /* TwitterFeedViewController.swift in Sources */,
+				ADD674D328500B5900B27845 /* UIStoryboard+Extension.swift in Sources */,
+				ADF61A642853F40500C7C613 /* TweetListScreenView.swift in Sources */,
+				ADF61A682854A1DC00C7C613 /* TwitterUserModel.swift in Sources */,
+				ADF61A5F2853F01300C7C613 /* TweetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADD674B2284FE2E300B27845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD674B3284FE2E300B27845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD674B7284FE2E500B27845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD674B8284FE2E500B27845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD674BB284FE2E500B27845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD674BC284FE2E500B27845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD674BE284FE2E500B27845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59E7D04A44FE77566C0BC91 /* Pods-MyCrypto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.bos.demo.MyCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD674BF284FE2E500B27845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E82FA43AE071316F358B8CF /* Pods-MyCrypto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.bos.demo.MyCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD674A4284FE2E300B27845 /* Build configuration list for PBXProject "MyCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD674BB284FE2E500B27845 /* Debug */,
+				ADD674BC284FE2E500B27845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD674BD284FE2E500B27845 /* Build configuration list for PBXNativeTarget "MyCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD674BE284FE2E500B27845 /* Debug */,
+				ADD674BF284FE2E500B27845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD674A1284FE2E300B27845 /* Project object */;
+}

@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B4130B8DC9592D8FEC82A0EF578D51 /* TDOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DFE61FA4A435C5095DDC0C4E27828 /* TDOAuth.swift */; };
+		07CD588AB9384BDC7F3E732FD2DA2D17 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 0964FDC47FA6DAF76ADCD933C61322AE /* TDOAuth.m */; };
+		0A03F55AE492480578C4C7F0A4D53A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E2C2145E40CAF8EE66EACD9355949A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		312D601C002E55DE1D90A62F23E75387 /* TDOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE61250FD013475260152DF36342A9FA /* TDOAuth-dummy.m */; };
+		4D1637EE7A2EF77D3802D676A272BC71 /* Pods-MyCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E78B9C8DDC35F4A4C4A653DF610058 /* Pods-MyCrypto-dummy.m */; };
+		4E9710223984190F3E53DDBB10F89F0B /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB10028F15A1632181F403017D22F57 /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5732563A9FC23E5A9E6F1B6668642B3B /* TDOAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AB8AA24221716DBC1CA844A79B59C8 /* TDOAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731C029D310192FA7CE3736754C27148 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982C5C642B1FDFF5067BA0EB87BDBA31 /* Compat.swift */; };
+		79F3903900C987887545E5C73779282D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97E53A4324853D9CEA76815E20D9F3F2 /* PlaintextSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16D69449CFD042DD5AF811B5CBA763 /* PlaintextSigner.swift */; };
+		9CCAA4865191C6407A7CC712DB683E49 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1DB8CE1ABA2288DEA8C9FDB1DB3226 /* OMGUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A88524BEA3F0EA648EBD57A67E4102EE /* Pods-MyCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BFEE7FCA7FD46C88E4C5FCFAC225B7 /* Pods-MyCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1ED936ED60F3617283805A2A297817 /* OAuth1Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E051D97DFCEAC3A52016EA02DF82790 /* OAuth1Signer.swift */; };
+		D01A504A2A0A71DF6034ED6CDE443D12 /* OMGHTTPURLRQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AA20FB9640908CB18B23217392AB7C /* OMGHTTPURLRQ-dummy.m */; };
+		D14C55DC2EF1C334D3D1C79489486430 /* TDOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2F7906C3C38C5A1513A29A6E418E78 /* TDOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED858B53E81738909E9752A16F0C3AEC /* OMGHTTPURLRQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3952191F67144A45D753902E93937 /* OMGHTTPURLRQ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9275D34B7AB2D3097E707733134431A /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A536767EF59343623DD634047FA73 /* StringUtils.swift */; };
+		FA38C5C05E278F8CB09D9157D7C9A076 /* HMACSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C67D2ACF92FD5B2937277733AC7FAB8 /* HMACSigner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3AFBEA68804E1E80B5574D76702ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE59D3D21AECD5F399E953205FB55A86;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		8C445A90F9B5EA9039C2C451D521E043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE59D3D21AECD5F399E953205FB55A86;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		9B715E18A36FCB2D2993081E691C9AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0759FDF590D13F2CC841F8AFBEE34987;
+			remoteInfo = TDOAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0762344903D694155067B88EE884DA53 /* Pods-MyCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCrypto.release.xcconfig"; sourceTree = "<group>"; };
+		0964FDC47FA6DAF76ADCD933C61322AE /* TDOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TDOAuth.m; path = Source/compat/TDOAuth.m; sourceTree = "<group>"; };
+		0B2DFE61FA4A435C5095DDC0C4E27828 /* TDOAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TDOAuth.swift; path = Source/TDOAuth.swift; sourceTree = "<group>"; };
+		17AA72C8A7BA8F659A9554A280535DCA /* Pods-MyCrypto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyCrypto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A48B1932A486D297C12BE4CC44453E4 /* OMGHTTPURLRQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.release.xcconfig; sourceTree = "<group>"; };
+		1A83E960361FE36341DE7B3438851568 /* OMGHTTPURLRQ */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OMGHTTPURLRQ; path = OMGHTTPURLRQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F2C7241CA100175C8C72488F737140 /* Pods-MyCrypto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCrypto-Info.plist"; sourceTree = "<group>"; };
+		34AA20FB9640908CB18B23217392AB7C /* OMGHTTPURLRQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMGHTTPURLRQ-dummy.m"; sourceTree = "<group>"; };
+		462BD0001B78AF468E37DCEF6D6FA0F6 /* OMGHTTPURLRQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-prefix.pch"; sourceTree = "<group>"; };
+		46AB8AA24221716DBC1CA844A79B59C8 /* TDOAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDOAuth-umbrella.h"; sourceTree = "<group>"; };
+		4C088C7E9AF98CB1D3A96E58906E2A9F /* Pods-MyCrypto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCrypto-acknowledgements.plist"; sourceTree = "<group>"; };
+		55A61B961C0B98AD4A6A832EFFDAF548 /* OMGHTTPURLRQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.debug.xcconfig; sourceTree = "<group>"; };
+		5A16D69449CFD042DD5AF811B5CBA763 /* PlaintextSigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaintextSigner.swift; path = Source/PlaintextSigner.swift; sourceTree = "<group>"; };
+		6C67D2ACF92FD5B2937277733AC7FAB8 /* HMACSigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMACSigner.swift; path = Source/HMACSigner.swift; sourceTree = "<group>"; };
+		71B7505850ED4BFC75D868BAE5C30D7F /* Pods-MyCrypto */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyCrypto"; path = Pods_MyCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75D151454B4CBC59F9DBB706FDA23192 /* Pods-MyCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCrypto.debug.xcconfig"; sourceTree = "<group>"; };
+		8E4481F91547912D055A785635F3204B /* TDOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDOAuth-prefix.pch"; sourceTree = "<group>"; };
+		94E78B9C8DDC35F4A4C4A653DF610058 /* Pods-MyCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyCrypto-dummy.m"; sourceTree = "<group>"; };
+		982C5C642B1FDFF5067BA0EB87BDBA31 /* Compat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compat.swift; path = Source/compat/Compat.swift; sourceTree = "<group>"; };
+		9A618F7B1D93BB77C54A0E77C64F1380 /* TDOAuth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDOAuth; path = TDOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1DB8CE1ABA2288DEA8C9FDB1DB3226 /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = Sources/OMGUserAgent.m; sourceTree = "<group>"; };
+		9CF61CDE9160A49D7B68FABF5AD6D7D4 /* TDOAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDOAuth.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E051D97DFCEAC3A52016EA02DF82790 /* OAuth1Signer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth1Signer.swift; path = Source/OAuth1Signer.swift; sourceTree = "<group>"; };
+		AA0A536767EF59343623DD634047FA73 /* StringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = Source/StringUtils.swift; sourceTree = "<group>"; };
+		B4A38B7A6E0492ABDCF7374BB38C8857 /* TDOAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TDOAuth-Info.plist"; sourceTree = "<group>"; };
+		BCB4F3060EE8317FE5181AC92C28FB8F /* OMGHTTPURLRQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OMGHTTPURLRQ.modulemap; sourceTree = "<group>"; };
+		BE61250FD013475260152DF36342A9FA /* TDOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDOAuth-dummy.m"; sourceTree = "<group>"; };
+		C2BFEE7FCA7FD46C88E4C5FCFAC225B7 /* Pods-MyCrypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyCrypto-umbrella.h"; sourceTree = "<group>"; };
+		CB2F7906C3C38C5A1513A29A6E418E78 /* TDOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDOAuth.h; path = Source/compat/TDOAuth.h; sourceTree = "<group>"; };
+		CE8FE474D6E355CC4A7BC9B870B7561F /* TDOAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDOAuth.release.xcconfig; sourceTree = "<group>"; };
+		D89904ACCD795F76B4466543A474AB5C /* TDOAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDOAuth.modulemap; sourceTree = "<group>"; };
+		ECBC1C672A478DC6F0B016D8BEF661BD /* OMGHTTPURLRQ-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OMGHTTPURLRQ-Info.plist"; sourceTree = "<group>"; };
+		ED168F645C3FD4F2C6222607F2F44D7D /* Pods-MyCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyCrypto.modulemap"; sourceTree = "<group>"; };
+		EEB10028F15A1632181F403017D22F57 /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = Sources/OMGUserAgent.h; sourceTree = "<group>"; };
+		F1255583820324EDCB21BC5F6A27786C /* Pods-MyCrypto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCrypto-frameworks.sh"; sourceTree = "<group>"; };
+		F2D3952191F67144A45D753902E93937 /* OMGHTTPURLRQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D03E2412F385F7B2E5CABF43B64AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F3903900C987887545E5C73779282D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65504B24399D65D79A283AD1DA8E20D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2C2145E40CAF8EE66EACD9355949A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB174F61D54223A1CFE867B1BB53E04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A03F55AE492480578C4C7F0A4D53A8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E328F1804C617F3927C653D75CC97A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFAC8892B97261B90982EC7C9F0D092 /* OMGHTTPURLRQ */,
+				4549FEDE28166A620F4AF13887667928 /* TDOAuth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CFAC8892B97261B90982EC7C9F0D092 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				939BBD865E97ACBB4923EBE897F41A46 /* Support Files */,
+				98C25D93330ED6DB37656C2537AD84C6 /* UserAgent */,
+			);
+			name = OMGHTTPURLRQ;
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		4549FEDE28166A620F4AF13887667928 /* TDOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3D492D43DE997DE3FDEE9F9ED74FD /* ObjC */,
+				D77E0F51A855C359E0F69A7A98098370 /* Support Files */,
+				DCC568EF2329DA9919A889F9A669B875 /* Swift */,
+			);
+			name = TDOAuth;
+			path = TDOAuth;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		939BBD865E97ACBB4923EBE897F41A46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4F3060EE8317FE5181AC92C28FB8F /* OMGHTTPURLRQ.modulemap */,
+				34AA20FB9640908CB18B23217392AB7C /* OMGHTTPURLRQ-dummy.m */,
+				ECBC1C672A478DC6F0B016D8BEF661BD /* OMGHTTPURLRQ-Info.plist */,
+				462BD0001B78AF468E37DCEF6D6FA0F6 /* OMGHTTPURLRQ-prefix.pch */,
+				F2D3952191F67144A45D753902E93937 /* OMGHTTPURLRQ-umbrella.h */,
+				55A61B961C0B98AD4A6A832EFFDAF548 /* OMGHTTPURLRQ.debug.xcconfig */,
+				1A48B1932A486D297C12BE4CC44453E4 /* OMGHTTPURLRQ.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMGHTTPURLRQ";
+			sourceTree = "<group>";
+		};
+		98C25D93330ED6DB37656C2537AD84C6 /* UserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				EEB10028F15A1632181F403017D22F57 /* OMGUserAgent.h */,
+				9B1DB8CE1ABA2288DEA8C9FDB1DB3226 /* OMGUserAgent.m */,
+			);
+			name = UserAgent;
+			sourceTree = "<group>";
+		};
+		A05F37DA7D3EC4B1C3853C6B41C807B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A83E960361FE36341DE7B3438851568 /* OMGHTTPURLRQ */,
+				71B7505850ED4BFC75D868BAE5C30D7F /* Pods-MyCrypto */,
+				9A618F7B1D93BB77C54A0E77C64F1380 /* TDOAuth */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77B1A92BBF6AA4FBDD5A42FB9DF82FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3C593F235FB0F282364449F09D2B4 /* Pods-MyCrypto */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2E328F1804C617F3927C653D75CC97A1 /* Pods */,
+				A05F37DA7D3EC4B1C3853C6B41C807B2 /* Products */,
+				A77B1A92BBF6AA4FBDD5A42FB9DF82FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2A3C593F235FB0F282364449F09D2B4 /* Pods-MyCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				ED168F645C3FD4F2C6222607F2F44D7D /* Pods-MyCrypto.modulemap */,
+				17AA72C8A7BA8F659A9554A280535DCA /* Pods-MyCrypto-acknowledgements.markdown */,
+				4C088C7E9AF98CB1D3A96E58906E2A9F /* Pods-MyCrypto-acknowledgements.plist */,
+				94E78B9C8DDC35F4A4C4A653DF610058 /* Pods-MyCrypto-dummy.m */,
+				F1255583820324EDCB21BC5F6A27786C /* Pods-MyCrypto-frameworks.sh */,
+				33F2C7241CA100175C8C72488F737140 /* Pods-MyCrypto-Info.plist */,
+				C2BFEE7FCA7FD46C88E4C5FCFAC225B7 /* Pods-MyCrypto-umbrella.h */,
+				75D151454B4CBC59F9DBB706FDA23192 /* Pods-MyCrypto.debug.xcconfig */,
+				0762344903D694155067B88EE884DA53 /* Pods-MyCrypto.release.xcconfig */,
+			);
+			name = "Pods-MyCrypto";
+			path = "Target Support Files/Pods-MyCrypto";
+			sourceTree = "<group>";
+		};
+		D77E0F51A855C359E0F69A7A98098370 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89904ACCD795F76B4466543A474AB5C /* TDOAuth.modulemap */,
+				BE61250FD013475260152DF36342A9FA /* TDOAuth-dummy.m */,
+				B4A38B7A6E0492ABDCF7374BB38C8857 /* TDOAuth-Info.plist */,
+				8E4481F91547912D055A785635F3204B /* TDOAuth-prefix.pch */,
+				46AB8AA24221716DBC1CA844A79B59C8 /* TDOAuth-umbrella.h */,
+				9CF61CDE9160A49D7B68FABF5AD6D7D4 /* TDOAuth.debug.xcconfig */,
+				CE8FE474D6E355CC4A7BC9B870B7561F /* TDOAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TDOAuth";
+			sourceTree = "<group>";
+		};
+		DBF3D492D43DE997DE3FDEE9F9ED74FD /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				982C5C642B1FDFF5067BA0EB87BDBA31 /* Compat.swift */,
+				CB2F7906C3C38C5A1513A29A6E418E78 /* TDOAuth.h */,
+				0964FDC47FA6DAF76ADCD933C61322AE /* TDOAuth.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		DCC568EF2329DA9919A889F9A669B875 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6C67D2ACF92FD5B2937277733AC7FAB8 /* HMACSigner.swift */,
+				9E051D97DFCEAC3A52016EA02DF82790 /* OAuth1Signer.swift */,
+				5A16D69449CFD042DD5AF811B5CBA763 /* PlaintextSigner.swift */,
+				AA0A536767EF59343623DD634047FA73 /* StringUtils.swift */,
+				0B2DFE61FA4A435C5095DDC0C4E27828 /* TDOAuth.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63CB858C3808425BAE7E0EC51778528C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED858B53E81738909E9752A16F0C3AEC /* OMGHTTPURLRQ-umbrella.h in Headers */,
+				4E9710223984190F3E53DDBB10F89F0B /* OMGUserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDE828F03143482AC30AC80F2707FD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14C55DC2EF1C334D3D1C79489486430 /* TDOAuth.h in Headers */,
+				5732563A9FC23E5A9E6F1B6668642B3B /* TDOAuth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20616C6770FEAE8542CC0AF1C6B56A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88524BEA3F0EA648EBD57A67E4102EE /* Pods-MyCrypto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0759FDF590D13F2CC841F8AFBEE34987 /* TDOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8193267035D6F5B190821A37A177D14B /* Build configuration list for PBXNativeTarget "TDOAuth" */;
+			buildPhases = (
+				7CDE828F03143482AC30AC80F2707FD3 /* Headers */,
+				991CC8F6467FAF34AC6FE12DE9F33479 /* Sources */,
+				65504B24399D65D79A283AD1DA8E20D3 /* Frameworks */,
+				DAF5F9219F4144E0B75A6F4F0BC6560F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445ABA12E4365EC17FC13080BC902010 /* PBXTargetDependency */,
+			);
+			name = TDOAuth;
+			productName = TDOAuth;
+			productReference = 9A618F7B1D93BB77C54A0E77C64F1380 /* TDOAuth */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A6C3ADD0C43573D1123CF8F033D500E /* Pods-MyCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5EDC0D68C21522819D975D34F4A76D /* Build configuration list for PBXNativeTarget "Pods-MyCrypto" */;
+			buildPhases = (
+				F20616C6770FEAE8542CC0AF1C6B56A7 /* Headers */,
+				128DA8D36BB7AB8CD0EAF892A8149532 /* Sources */,
+				FB174F61D54223A1CFE867B1BB53E04B /* Frameworks */,
+				0A3A0CCF419B60180F65600C7AA44885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABEADC701670E17B58503E6F67656EF /* PBXTargetDependency */,
+				0C81A5FB23D21B20E34FEC8E574CCD28 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyCrypto";
+			productName = Pods_MyCrypto;
+			productReference = 71B7505850ED4BFC75D868BAE5C30D7F /* Pods-MyCrypto */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE59D3D21AECD5F399E953205FB55A86 /* OMGHTTPURLRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DBE5D1E50DC41D1878F703C03930EE /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */;
+			buildPhases = (
+				63CB858C3808425BAE7E0EC51778528C /* Headers */,
+				B60F60E67AF7EDEE908D7AB176683D02 /* Sources */,
+				49D03E2412F385F7B2E5CABF43B64AD0 /* Frameworks */,
+				EF0164D83ED13C4201F93F03C07FEE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGHTTPURLRQ;
+			productName = OMGHTTPURLRQ;
+			productReference = 1A83E960361FE36341DE7B3438851568 /* OMGHTTPURLRQ */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A05F37DA7D3EC4B1C3853C6B41C807B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE59D3D21AECD5F399E953205FB55A86 /* OMGHTTPURLRQ */,
+				2A6C3ADD0C43573D1123CF8F033D500E /* Pods-MyCrypto */,
+				0759FDF590D13F2CC841F8AFBEE34987 /* TDOAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3A0CCF419B60180F65600C7AA44885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF5F9219F4144E0B75A6F4F0BC6560F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0164D83ED13C4201F93F03C07FEE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128DA8D36BB7AB8CD0EAF892A8149532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1637EE7A2EF77D3802D676A272BC71 /* Pods-MyCrypto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991CC8F6467FAF34AC6FE12DE9F33479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731C029D310192FA7CE3736754C27148 /* Compat.swift in Sources */,
+				FA38C5C05E278F8CB09D9157D7C9A076 /* HMACSigner.swift in Sources */,
+				CB1ED936ED60F3617283805A2A297817 /* OAuth1Signer.swift in Sources */,
+				97E53A4324853D9CEA76815E20D9F3F2 /* PlaintextSigner.swift in Sources */,
+				F9275D34B7AB2D3097E707733134431A /* StringUtils.swift in Sources */,
+				07CD588AB9384BDC7F3E732FD2DA2D17 /* TDOAuth.m in Sources */,
+				05B4130B8DC9592D8FEC82A0EF578D51 /* TDOAuth.swift in Sources */,
+				312D601C002E55DE1D90A62F23E75387 /* TDOAuth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60F60E67AF7EDEE908D7AB176683D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01A504A2A0A71DF6034ED6CDE443D12 /* OMGHTTPURLRQ-dummy.m in Sources */,
+				9CCAA4865191C6407A7CC712DB683E49 /* OMGUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C81A5FB23D21B20E34FEC8E574CCD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDOAuth;
+			target = 0759FDF590D13F2CC841F8AFBEE34987 /* TDOAuth */;
+			targetProxy = 9B715E18A36FCB2D2993081E691C9AC0 /* PBXContainerItemProxy */;
+		};
+		445ABA12E4365EC17FC13080BC902010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = DE59D3D21AECD5F399E953205FB55A86 /* OMGHTTPURLRQ */;
+			targetProxy = 0E3AFBEA68804E1E80B5574D76702ABE /* PBXContainerItemProxy */;
+		};
+		EABEADC701670E17B58503E6F67656EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = DE59D3D21AECD5F399E953205FB55A86 /* OMGHTTPURLRQ */;
+			targetProxy = 8C445A90F9B5EA9039C2C451D521E043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1281DC7F2D8D978B73842FCE463D094A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D151454B4CBC59F9DBB706FDA23192 /* Pods-MyCrypto.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14B7561D5F7328D29B6C922E989709CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF61CDE9160A49D7B68FABF5AD6D7D4 /* TDOAuth.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDOAuth/TDOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TDOAuth/TDOAuth.modulemap";
+				PRODUCT_MODULE_NAME = TDOAuth;
+				PRODUCT_NAME = TDOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		180B957616BDB973F299A6063E87D59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A48B1932A486D297C12BE4CC44453E4 /* OMGHTTPURLRQ.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ.modulemap";
+				PRODUCT_MODULE_NAME = OMGHTTPURLRQ;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2834FF8E97BD71DFF11CBEFAD7D1F331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0762344903D694155067B88EE884DA53 /* Pods-MyCrypto.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyCrypto/Pods-MyCrypto.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A387D81B9DB222E57C5D6C7FC695368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8FE474D6E355CC4A7BC9B870B7561F /* TDOAuth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDOAuth/TDOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TDOAuth/TDOAuth.modulemap";
+				PRODUCT_MODULE_NAME = TDOAuth;
+				PRODUCT_NAME = TDOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C1219F17E92851D7151086F4AE86986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A61B961C0B98AD4A6A832EFFDAF548 /* OMGHTTPURLRQ.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ.modulemap";
+				PRODUCT_MODULE_NAME = OMGHTTPURLRQ;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DBE5D1E50DC41D1878F703C03930EE /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1219F17E92851D7151086F4AE86986 /* Debug */,
+				180B957616BDB973F299A6063E87D59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5EDC0D68C21522819D975D34F4A76D /* Build configuration list for PBXNativeTarget "Pods-MyCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1281DC7F2D8D978B73842FCE463D094A /* Debug */,
+				2834FF8E97BD71DFF11CBEFAD7D1F331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8193267035D6F5B190821A37A177D14B /* Build configuration list for PBXNativeTarget "TDOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B7561D5F7328D29B6C922E989709CB /* Debug */,
+				2A387D81B9DB222E57C5D6C7FC695368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

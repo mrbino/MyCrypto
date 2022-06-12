@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeScreen" customModule="MyCrypto" customModuleProvider="target">
+            <connections>
+                <outlet property="containerWelcomeText" destination="G4b-M9-itb" id="VK4-aa-EPr"/>
+                <outlet property="lblMessage" destination="Dts-Tl-Rbi" id="2GX-hS-48F"/>
+                <outlet property="lblRedirectedMessage" destination="HIw-Be-yUQ" id="hOW-ba-4HW"/>
+                <outlet property="lblWelcomeText" destination="M2o-gx-ztk" id="o3I-2F-YYd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Q1i-WG-qcs">
+                    <rect key="frame" x="20" y="113.5" width="374" height="238.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4b-M9-itb">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="172.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Welcome, user!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2o-gx-ztk">
+                                    <rect key="frame" x="8" y="0.0" width="358" height="172.5"/>
+                                    <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="50"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="widthClass=compact">
+                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="36"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="tintColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailingMargin" secondItem="M2o-gx-ztk" secondAttribute="trailing" id="Fsd-Ld-oLA"/>
+                                <constraint firstAttribute="bottom" secondItem="M2o-gx-ztk" secondAttribute="bottom" id="Nav-KC-ibJ"/>
+                                <constraint firstAttribute="width" secondItem="G4b-M9-itb" secondAttribute="height" multiplier="353:163" id="VCl-g9-gLk"/>
+                                <constraint firstItem="M2o-gx-ztk" firstAttribute="leading" secondItem="G4b-M9-itb" secondAttribute="leadingMargin" id="iDX-hh-JsN"/>
+                                <constraint firstItem="M2o-gx-ztk" firstAttribute="top" secondItem="G4b-M9-itb" secondAttribute="top" id="nnB-eH-9fS"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F1F-AM-luW">
+                            <rect key="frame" x="0.0" y="192.5" width="374" height="46"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QVi-IM-zxZ">
+                                    <rect key="frame" x="8" y="0.0" width="358" height="46"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="You are being redirected to the next screen." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dts-Tl-Rbi">
+                                            <rect key="frame" x="0.0" y="0.0" width="358" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="You will be redirected in 5 seconds." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-Be-yUQ">
+                                            <rect key="frame" x="0.0" y="25.5" width="358" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="QVi-IM-zxZ" firstAttribute="top" secondItem="F1F-AM-luW" secondAttribute="top" id="Mdn-8p-jIo"/>
+                                <constraint firstAttribute="trailingMargin" secondItem="QVi-IM-zxZ" secondAttribute="trailing" id="Qjc-Nd-L3N"/>
+                                <constraint firstItem="QVi-IM-zxZ" firstAttribute="leading" secondItem="F1F-AM-luW" secondAttribute="leadingMargin" id="qDX-yJ-Blb"/>
+                                <constraint firstAttribute="bottom" secondItem="QVi-IM-zxZ" secondAttribute="bottom" id="rGf-MR-O7u"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Q1i-WG-qcs" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="0.25" id="3wQ-cD-CDP"/>
+                <constraint firstItem="Q1i-WG-qcs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="8vP-Kf-q4E"/>
+                <constraint firstAttribute="trailingMargin" secondItem="Q1i-WG-qcs" secondAttribute="trailing" id="DaY-RA-7Tv"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
