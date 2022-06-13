@@ -88,6 +88,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD069D1F2857655400653834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674D02850050C00B27845 /* UserdefaultsUtils.swift */,
+				ADF61A5228522D1D00C7C613 /* APIClient.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AD069D202857656400653834 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674C8284FFDDD00B27845 /* UIView+Extension.swift */,
+				ADD674D228500B5900B27845 /* UIStoryboard+Extension.swift */,
+				ADF61A5428523C9D00C7C613 /* JSON+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD069D212857657600653834 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD069D29285766EB00653834 /* Modal */,
+				ADD674B0284FE2E300B27845 /* HomeViewController.swift */,
+				ADD674CA285003EC00B27845 /* TwitterFeedViewController.swift */,
+				ADF61A6D2854AE0A00C7C613 /* TweetDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD069D23285765C400653834 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674DB285027BD00B27845 /* CryptoModel.swift */,
+				ADF61A612853F07000C7C613 /* TweetModel.swift */,
+				ADF61A672854A1DC00C7C613 /* TwitterUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD069D24285765D900653834 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674C3284FFD0000B27845 /* WelcomeScreen.xib */,
+				ADD674C5284FFD1D00B27845 /* WelcomeScreen.swift */,
+				ADD674D928501FDD00B27845 /* CryptoListScreenView.xib */,
+				ADD674D728501FC800B27845 /* CryptoListScreenView.swift */,
+				AD069D2A2857670000653834 /* CryptoTableViewCell */,
+				ADF61A652853F41700C7C613 /* TweetListScreenView.xib */,
+				ADF61A632853F40500C7C613 /* TweetListScreenView.swift */,
+				AD069D2B2857671200653834 /* TweetTableViewCell */,
+				ADF61A6B2854A5AB00C7C613 /* TweetDetailScreenView.xib */,
+				ADF61A692854A59A00C7C613 /* TweetDetailScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD069D29285766EB00653834 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674D528501F4600B27845 /* CryptoListViewController.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		AD069D2A2857670000653834 /* CryptoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADD674E12850292500B27845 /* CryptoTableViewCell.xib */,
+				ADD674E02850292500B27845 /* CryptoTableViewCell.swift */,
+			);
+			path = CryptoTableViewCell;
+			sourceTree = "<group>";
+		};
+		AD069D2B2857671200653834 /* TweetTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADF61A5E2853F01300C7C613 /* TweetTableViewCell.xib */,
+				ADF61A5D2853F01300C7C613 /* TweetTableViewCell.swift */,
+			);
+			path = TweetTableViewCell;
+			sourceTree = "<group>";
+		};
 		ADD674A0284FE2E300B27845 = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +192,11 @@
 		ADD674AB284FE2E300B27845 /* MyCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				ADD674CF285004F400B27845 /* Utils */,
-				ADD674C7284FFDB000B27845 /* Extensions */,
-				ADD674C2284FF01400B27845 /* ViewController */,
-				ADD674C1284FF00C00B27845 /* Model */,
-				ADD674C0284FF00400B27845 /* View */,
+				AD069D202857656400653834 /* Extensions */,
+				AD069D1F2857655400653834 /* Utils */,
+				AD069D23285765C400653834 /* Model */,
+				AD069D24285765D900653834 /* View */,
+				AD069D212857657600653834 /* ViewController */,
 				ADD674AC284FE2E300B27845 /* AppDelegate.swift */,
 				ADD674AE284FE2E300B27845 /* SceneDelegate.swift */,
 				ADD674B2284FE2E300B27845 /* Main.storyboard */,
@@ -122,89 +205,6 @@
 				ADD674BA284FE2E500B27845 /* Info.plist */,
 			);
 			path = MyCrypto;
-			sourceTree = "<group>";
-		};
-		ADD674C0284FF00400B27845 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674C3284FFD0000B27845 /* WelcomeScreen.xib */,
-				ADD674C5284FFD1D00B27845 /* WelcomeScreen.swift */,
-				ADD674D928501FDD00B27845 /* CryptoListScreenView.xib */,
-				ADD674D728501FC800B27845 /* CryptoListScreenView.swift */,
-				ADD674DD285028BD00B27845 /* CryptoTableViewCell */,
-				ADF61A652853F41700C7C613 /* TweetListScreenView.xib */,
-				ADF61A632853F40500C7C613 /* TweetListScreenView.swift */,
-				ADF61A5C2853EFCD00C7C613 /* TweetTableViewCell */,
-				ADF61A6B2854A5AB00C7C613 /* TweetDetailScreenView.xib */,
-				ADF61A692854A59A00C7C613 /* TweetDetailScreenView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		ADD674C1284FF00C00B27845 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674DB285027BD00B27845 /* CryptoModel.swift */,
-				ADF61A612853F07000C7C613 /* TweetModel.swift */,
-				ADF61A672854A1DC00C7C613 /* TwitterUserModel.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		ADD674C2284FF01400B27845 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674D428501F0D00B27845 /* Modal */,
-				ADD674B0284FE2E300B27845 /* HomeViewController.swift */,
-				ADD674CA285003EC00B27845 /* TwitterFeedViewController.swift */,
-				ADF61A6D2854AE0A00C7C613 /* TweetDetailViewController.swift */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		ADD674C7284FFDB000B27845 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674C8284FFDDD00B27845 /* UIView+Extension.swift */,
-				ADD674D228500B5900B27845 /* UIStoryboard+Extension.swift */,
-				ADF61A5428523C9D00C7C613 /* JSON+Extension.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		ADD674CF285004F400B27845 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674D02850050C00B27845 /* UserdefaultsUtils.swift */,
-				ADF61A5228522D1D00C7C613 /* APIClient.swift */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		ADD674D428501F0D00B27845 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674D528501F4600B27845 /* CryptoListViewController.swift */,
-			);
-			name = Modal;
-			sourceTree = "<group>";
-		};
-		ADD674DD285028BD00B27845 /* CryptoTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				ADD674E12850292500B27845 /* CryptoTableViewCell.xib */,
-				ADD674E02850292500B27845 /* CryptoTableViewCell.swift */,
-			);
-			name = CryptoTableViewCell;
-			sourceTree = "<group>";
-		};
-		ADF61A5C2853EFCD00C7C613 /* TweetTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				ADF61A5E2853F01300C7C613 /* TweetTableViewCell.xib */,
-				ADF61A5D2853F01300C7C613 /* TweetTableViewCell.swift */,
-			);
-			name = TweetTableViewCell;
 			sourceTree = "<group>";
 		};
 		E88BB833B2715B6406FA6DD3 /* Pods */ = {
